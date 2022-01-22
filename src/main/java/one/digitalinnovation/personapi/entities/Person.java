@@ -36,6 +36,9 @@ public class Person {
 
     @Column(nullable = false, unique = true)
     private String cpf;
+    
+    @Column(nullable = false)
+    private String rg;
 
     private LocalDate birthDate;
 
